@@ -1,0 +1,48 @@
+VARIAVEIS
+	acucar = 2;
+	margarina = 4;
+	leite = 1.5;
+	trigo = 3;
+	ovo = 3; 
+	fermento = 0.5;
+INICIO
+	ir até a cozinha;
+
+	Pegar ovos;
+
+	Separar as claras das gemas dos ovos;
+
+	claraNeve <- claras batidas
+
+	Mistura <- gemas + mangarina + acucar
+
+	massa <-  mistura + leite + trigo
+
+	massaHomogenia <- massa + fermento + claraNeve
+
+	pegar uma forma grande;
+
+	untar forma com manteiga;
+
+	despejar massaHomogenia na forma;
+
+	fornoMedio = 180°C
+
+	colocar forma no fornoMedio;
+
+	massaCozida = Bolo pronto ou 40min;
+
+	enquanto massaHomogenia != massaCozida faça
+		esperar; 
+	fimenquanto
+
+	tirar bolo do forno;
+
+	esperar esfriar;
+
+	pegar um prato;
+
+	colocar bolo no prato;
+
+	comer;
+FIM
