@@ -1,19 +1,23 @@
-	/*
-		Utilizem laços de repetição
-		3 notas cadastradas por aluno
-		Imprimam no final: 
-			- A média de cada aluno (vetor)
-			- A média da turma
-			- A maior nota e a maior media informando o nome do aluno 
-			- A menor nota e a menor média informando o nome do aluno 
-			- Quantos alunos você quer cadastrar?
-			- Para regra da maior nota, o que vale é o cadastro mais antigo
+	/* 
+	 * Escreva um programa que faça a tabuada de um número n. 
 	*/
 
 	programa {
 
+		inclua biblioteca Matematica --> Mat
+		
 		funcao inicio() {
+
+			inteiro mult, multiplicando = 0, resultado
 			
+			escreva("Digite o multiplicador: ")
+			leia(mult)
+
+			enquanto (multiplicando < 10) {
+				multiplicando++
+				resultado = multiplicando * mult
+				escreva("\n", mult, " X ", multiplicando, " = ", resultado)
+			}
 		}
 	}
 
@@ -22,7 +26,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 394; 
+ * @POSICAO-CURSOR = 373; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
