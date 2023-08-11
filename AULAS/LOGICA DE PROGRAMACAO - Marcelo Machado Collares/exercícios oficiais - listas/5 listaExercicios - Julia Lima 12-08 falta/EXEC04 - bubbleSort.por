@@ -1,7 +1,7 @@
 	
 	/*
-	 * Escreva um programa que armazene X números em um vetor e calcule o 
-	 * valor médio do vetor.
+	 * Escreva uma função que ordena um vetor com 20 números.
+	 * Dica : Pesquisar por Bubble Sort
 	*/
 	
 	programa {
@@ -17,7 +17,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 88; 
+ * @POSICAO-CURSOR = 69; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,7 +1,7 @@
 	
 	/*
-	 * Escreva um programa que armazene X números em um vetor e calcule o 
-	 * valor médio do vetor.
+	 * Escreva uma função que retorna todos os 
+	 * valores duplicados de um array
 	*/
 	
 	programa {
@@ -17,7 +17,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 88; 
+ * @POSICAO-CURSOR = 0; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

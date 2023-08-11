@@ -1,17 +1,12 @@
 	
-	/* 
-	Escreva um programa que calcule o número de dígitos de um dado número usando recursão: 
-	
-	Exemplo de entrada: 
-	100 
-	
-	Saída esperada: O número de dígitos do número é: 3 
+	/*
+	 * Escreva uma função que multiplica duas matrizes
 	*/
 	
 	programa {
 	
 		funcao inicio() {
-		
+	
 			
 		}
 	}
@@ -21,7 +16,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 179; 
+ * @POSICAO-CURSOR = 57; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

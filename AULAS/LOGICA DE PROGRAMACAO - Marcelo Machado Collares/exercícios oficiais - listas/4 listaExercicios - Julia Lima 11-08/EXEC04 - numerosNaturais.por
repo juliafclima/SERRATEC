@@ -14,20 +14,57 @@
 	47 48 49 50
 	*/
 	
-	programa {
 	
-		funcao inicio() {
+	programa {
 		
+		funcao inicio() {
+	
+			escreva("Os números naturais são: \n\n")
 			
+			imprimirNumeros(1)
+		
+		}
+	
+	
+		funcao imprimirNumeros(inteiro n) {
+			
+			se (n >= 50) {
+			
+				escreva(n)
+			
+			}
+			
+			senao se (n < 10) {
+				
+				escreva(" ", n, "  ")
+				imprimirNumeros(n + 1)
+			
+			}
+			
+			senao {
+				
+				se ((n % 10 == 0) e (n != 50)) {
+					
+					escreva(n, " \n")
+				
+				} senao {
+					
+					escreva(n, "  ")
+				
+				}
+				
+				imprimirNumeros(n + 1)
+				
+				}
 		}
 	}
-
+				
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 331; 
+ * @POSICAO-CURSOR = 795; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

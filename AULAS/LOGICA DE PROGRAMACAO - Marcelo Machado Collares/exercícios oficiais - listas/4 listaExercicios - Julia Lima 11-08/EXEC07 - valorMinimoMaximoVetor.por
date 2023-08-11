@@ -18,18 +18,41 @@
 	
 	programa {
 	
-		funcao inicio() {
+	funcao inicio() {
 		
+		inteiro elemento[10], maximo = 0, minimo = 0
+
+		escreva("Trabalhando com vetores\n")
+		
+		para (inteiro i=0; i <= 4; i++) {
 			
+			escreva("Elemento ", i, ": ")
+			leia(elemento[i]) 
+			
+			se (i == 0) {
+				minimo = elemento[0]
+			}
+			
+			se (elemento[i] < minimo) {
+				maximo = elemento[i]
+			}
+			
+			se (elemento[i] > maximo) {
+				maximo = elemento[i]
+			}
 		}
+		
+		escreva("\nElemento máximo: ", maximo)
+		escreva("\nElemento mínimo: ", minimo)
 	}
+}
 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 331; 
+ * @POSICAO-CURSOR = 723; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

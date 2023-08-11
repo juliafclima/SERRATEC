@@ -20,19 +20,36 @@
 	programa {
 	
 		funcao inicio() {
-		
+			
+			inteiro elemento[5]
+	
+			escreva("Trabalhando com vetores\n\n")
+			
+			para (inteiro i = 0; i <= 4; i++) {
+				
+				escreva("Elemento ", i, ": ")
+				leia(elemento[i]) 
+				
+			}
+
+			escreva("\nOs elementos do vetor são: ")
+
+			para (inteiro j = 0; j <= 4; j++) {
+
+				escreva(" [", elemento[j], "]")
+				
+			}
 			
 		}
-	}
+}
 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 239; 
+ * @POSICAO-CURSOR = 790; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

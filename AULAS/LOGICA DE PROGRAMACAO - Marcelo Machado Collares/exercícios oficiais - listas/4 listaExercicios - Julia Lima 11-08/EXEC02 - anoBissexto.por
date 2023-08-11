@@ -14,11 +14,28 @@
 	programa {
 	
 		funcao inicio() {
-		
+
+			escreva("=== CALENDÁRIO ===\n")
+			anoBissexto()
 			
 		}
 
 		funcao anoBissexto() {
+
+			inteiro ano
+			cadeia situacao
+			
+			escreva("Digite um ano: ")
+			leia(ano)
+
+			se (ano % 4 == 0) { // BISSEXTO = ANO DIVISIVEL POR 4
+				situacao = "É"
+			} senao {
+				situacao = "NÃO É"
+			}
+			
+			escreva("\nO ano ", ano, " ", situacao, " bissexto!")
+		}
 	}
 
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +43,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 280; 
+ * @POSICAO-CURSOR = 412; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
