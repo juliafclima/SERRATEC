@@ -17,7 +17,7 @@
 			para (i = 1; i <= n; i++) {
 				
 				para (j = 1; j <= n - i; j++) {
-					escreva(" ")
+					escreva("")
 				}
 
 				para (j = 1; j <= i; j++) {
@@ -25,6 +25,7 @@
 				}
 
 				escreva("\n")
+				
 			}
 		}
 	}
@@ -34,7 +35,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 440; 
+ * @POSICAO-CURSOR = 446; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
