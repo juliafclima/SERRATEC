@@ -75,8 +75,13 @@ DELETE from genero where id in (9, 10);
 
 UPDATE genero set nome = 'kpop' where id = 8;
 
+INSERT INTO artista (nome, popularidade, seguidores) values
+('Anitta', 100, 100000),
+('ColdPlay', 96, 200000),
+('Raça Negra', 99, 80000);
 
 
+-- genero -> genero_artista -> artista -> musica -> musica_pais -> pais
 
 
 
